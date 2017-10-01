@@ -7,9 +7,11 @@
 		<key>DSDT</key>
 		<dict>
 			<key>DropOEM_DSM</key>
-			<true/>
+			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>AddPNLF_1000000</key>
+				<true/>
 				<key>FixHeaders_20000000</key>
 				<true/>
 			</dict>
@@ -40,6 +42,8 @@
 				<key>PStates</key>
 				<false/>
 			</dict>
+			<key>PluginType</key>
+			<string>1</string>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -47,7 +51,7 @@
 		<key>Arguments</key>
 		<string>-lilubetaall</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>Hacintosh HD</string>
 		<key>NeverDoRecovery</key>
 		<true/>
 		<key>NoEarlyProgress</key>
@@ -55,9 +59,16 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
+	</dict>
+	<key>BootGraphics</key>
+	<dict>
+		<key>EFILoginHiDPI</key>
+		<integer>1</integer>
+		<key>UIScale</key>
+		<integer>1</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -89,8 +100,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Recovery HD</string>
 			<string>Preboot</string>
+			<string>Recovery</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -106,12 +117,10 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<false/>
+			<true/>
 			<key>Tool</key>
 			<false/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1366x768</string>
 		<key>Theme</key>
 		<string>SimpleThemeDark</string>
 	</dict>
@@ -195,8 +204,6 @@
 	<dict>
 		<key>InjectKexts</key>
 		<string>Detect</string>
-		<key>InjectSystemID</key>
-		<true/>
 	</dict>
 </dict>
 </plist>
