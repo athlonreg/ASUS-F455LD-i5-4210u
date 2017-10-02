@@ -1,15 +1,12 @@
-# ASUS-F455LD-i5-4210u
+# ASUS F455LD i5 4210u
 
 
-## This is my laptop's backup of CLOVER EFI bootloader. 
+> This is my laptop's backup of CLOVER EFI bootloader. 
+
+> If your laptop is the same as mine, you can use my clover to install macOS.
 
 
-## You should pay attention to: 
-
-If your laptop is the same as mine, you can use my clover to install macOS.
-
-
-## My laptop‘s parameter is as following：
+### My laptop‘s parameter is as following：
 
 ```
 Computer model              Asus F455LD Notebook
