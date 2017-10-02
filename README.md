@@ -16,7 +16,7 @@ Computer model              Asus F455LD Notebook
 
 CPU                         Intel Core i5-4210u
 
-Operate System              Windows 10 Education Edition 64bit + macOS High Sierra 10.13 + macOS Sierra 10.12.6 + Deepin 15.4RC
+Operate System              Windows10 Education 64bit + Windows7 Ultimate + macOS High Sierra 17B25c + ElementaryOS base on Ubuntu 16.04
 
 Main board                  Asus X455LD Intel Haswell-ULT - Lynx Point-LP
 
