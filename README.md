@@ -1,6 +1,7 @@
 ### My laptop's backup of CLOVER EFI bootloader.
 
 > If your laptop is the same as mine, you can use my clover to install macOS.
+
 > My laptop‘s parameter is as following：
 
 ```
