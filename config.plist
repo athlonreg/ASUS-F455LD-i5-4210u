@@ -51,8 +51,10 @@
 		<key>Arguments</key>
 		<string>-lilubetaall</string>
 		<key>DefaultVolume</key>
-		<string>Hacintosh HD</string>
+		<string>Macintosh HD</string>
 		<key>NeverDoRecovery</key>
+		<true/>
+		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
 		<true/>
@@ -62,13 +64,6 @@
 		<integer>3</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
-	</dict>
-	<key>BootGraphics</key>
-	<dict>
-		<key>EFILoginHiDPI</key>
-		<integer>1</integer>
-		<key>UIScale</key>
-		<integer>1</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -81,15 +76,11 @@
 		<dict>
 			<key>Inject</key>
 			<string>28</string>
-			<key>ResetHDA</key>
-			<true/>
 		</dict>
 		<key>SetIntelBacklight</key>
 		<true/>
 		<key>USB</key>
 		<dict>
-			<key>AddClockID</key>
-			<true/>
 			<key>FixOwnership</key>
 			<true/>
 			<key>Inject</key>
@@ -117,7 +108,7 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<true/>
+			<false/>
 			<key>Tool</key>
 			<false/>
 		</dict>
@@ -140,8 +131,6 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>ig-platform-id</key>
-		<string>0x0a160000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -168,7 +157,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02314405OPF502JC</string>
+		<string>C02346902GUDM661F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -196,7 +185,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02KKZX4FH00</string>
+		<string>C02LQ21WFH00</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
