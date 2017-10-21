@@ -63,14 +63,14 @@
 		<string>-lilubetaall abm_firstpolldelay=12000</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
+		<key>Fast</key>
+		<true/>
 		<key>NeverDoRecovery</key>
 		<true/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>3</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
