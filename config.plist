@@ -15,8 +15,6 @@
 				<key>FixHeaders_20000000</key>
 				<true/>
 			</dict>
-			<key>SlpSmiAtWake</key>
-			<true/>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -24,17 +22,15 @@
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>Cpu0Ist</string>
+				<string>CpuPm</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>CpuPm</string>
+				<string>Cpu0Ist</string>
 			</dict>
 		</array>
-		<key>HaltEnabler</key>
-		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -46,16 +42,7 @@
 				<key>PStates</key>
 				<false/>
 			</dict>
-			<key>PluginType</key>
-			<string>1</string>
 		</dict>
-		<key>SortedOrder</key>
-		<array>
-			<string>SSDT-1.aml</string>
-			<string>SSDT-CX20751.aml</string>
-			<string>SSDT-Disable_DGPU.aml</string>
-			<string>SSDT.aml</string>
-		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -63,14 +50,12 @@
 		<string>-lilubetaall abm_firstpolldelay=12000</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
-		<key>Fast</key>
-		<true/>
-		<key>NeverDoRecovery</key>
-		<true/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -81,18 +66,11 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
-		<key>Audio</key>
-		<dict>
-			<key>ResetHDA</key>
-			<true/>
-		</dict>
 		<key>SetIntelBacklight</key>
 		<true/>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
-			<true/>
-			<key>Inject</key>
 			<true/>
 		</dict>
 	</dict>
@@ -101,7 +79,6 @@
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
-			<string>Recovery</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
