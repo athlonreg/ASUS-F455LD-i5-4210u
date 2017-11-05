@@ -47,7 +47,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall abm_firstpolldelay=12000</string>
+		<string>-lilubetaall</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NoEarlyProgress</key>
@@ -79,6 +79,8 @@
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
+			<string>Recovery</string>
+			<string>ESD-ISO</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
