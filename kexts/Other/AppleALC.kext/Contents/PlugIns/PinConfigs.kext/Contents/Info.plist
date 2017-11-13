@@ -29,26 +29,6 @@
 			<key>HDAConfigDefault</key>
 			<array>
 				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Mirone - Conexant CX20752</string>
-					<key>CodecID</key>
-					<integer>351359247</integer>
-					<key>ConfigData</key>
-					<data>
-					AWccEAFnHUABZx4hAWcfAQF3HCABdx0AAXce
-					FwF3H5ABhxwwAYcdkAGHHoEBhx8BAaccQAGn
-					HQABpx6gAacfkA==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>3</integer>
-				</dict>
-				<dict>
 					<key>Codec</key>
 					<string>Conexant - CX20751/2 by RehabMan</string>
 					<key>CodecID</key>
