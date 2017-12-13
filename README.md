@@ -22,33 +22,33 @@ Wireless network adapter    Atheros AR956X
 ```
 
 ### Working
-![Screen Shot 2017-12-13 at 1.51.35 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.51.35 PM.png)
+![2017-12-13-01](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-01.png)
 
-![Screen Shot 2017-12-13 at 1.51.50 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.51.50 PM.png)
+![2017-12-13-02](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-02.png)
 
-![Screen Shot 2017-12-13 at 1.52.41 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.52.41 PM.png)
+![2017-12-13-03](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-03.png)
 
-![Screen Shot 2017-12-13 at 1.52.55 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.52.55 PM.png)
+![2017-12-13-04](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-04.png)
 
-![Screen Shot 2017-12-13 at 1.53.08 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.53.08 PM.png)
+![2017-12-13-05](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-05.png)
 
-![Screen Shot 2017-12-13 at 1.53.19 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.53.19 PM.png)
+![2017-12-13-06](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-06.png)
 
-![Screen Shot 2017-12-13 at 1.53.29 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.53.29 PM.png)
+![2017-12-13-07](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-07.png)
 
-![Screen Shot 2017-12-13 at 1.53.48 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.53.48 PM.png)
+![2017-12-13-08](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-08.png)
 
-![Screen Shot 2017-12-13 at 1.54.01 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.54.01 PM.png)
+![2017-12-13-09](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-09.png)
 
-![Screen Shot 2017-12-13 at 1.54.14 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.54.14 PM.png)
+![2017-12-13-10](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-10.png)
 
-![Screen Shot 2017-12-13 at 1.54.24 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.54.24 PM.png)
+![2017-12-13-11](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-11.png)
 
-![Screen Shot 2017-12-13 at 1.54.53 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.54.53 PM.png)
+![2017-12-13-12](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-12.png)
 
-![Screen Shot 2017-12-13 at 1.56.04 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.56.04 PM.png)
+![2017-12-13-13](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-13.png)
 
-![Screen Shot 2017-12-13 at 1.56.12 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.56.12 PM.png)
+![2017-12-13-14](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-14.png)
 
 ### Notes
 #### About `ALCPlugFix`
@@ -63,13 +63,13 @@ The script can fix your audio with good input and switch。
 
 #### About `一键开启HIDPI并注入EDID`
 
-![Screen Shot 2017-12-13 at 2.15.19 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 2.15.19 PM.png)
+![2017-12-13-15](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-15.png)
 
 Just double click `双击.command`，and input your password。
 
-It can working as Macintosh。
+Then it can working as Macintosh。
 
-![Screen Shot 2017-12-13 at 1.53.48 PM](http://ovefvi4g3.bkt.clouddn.com/Screen Shot 2017-12-13 at 1.53.48 PM.png)
+![2017-12-13-08](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-08.png)
 
 ### Clover EFI bootloader
 [ASUS-F455LD-i5-4210u](https://github.com/athlonreg/ASUS-F455LD-i5-4210u/releases)
