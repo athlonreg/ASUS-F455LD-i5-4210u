@@ -10,9 +10,7 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
-				<key>AddPNLF_1000000</key>
-				<true/>
-				<key>FixHeaders_20000000</key>
+				<key>AddPNLF</key>
 				<true/>
 			</dict>
 		</dict>
@@ -41,13 +39,15 @@
 				<false/>
 				<key>PStates</key>
 				<false/>
+				<key>PluginType</key>
+				<false/>
 			</dict>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall</string>
+		<string>-lilubetaall abm_firstpolldelay=12000</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NoEarlyProgress</key>
@@ -80,7 +80,6 @@
 		<array>
 			<string>Preboot</string>
 			<string>Recovery</string>
-			<string>ESD-ISO</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -96,7 +95,7 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<true/>
+			<false/>
 			<key>Tool</key>
 			<false/>
 		</dict>
@@ -139,27 +138,27 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.0142.B00.1708080655</string>
+		<string>MBA61.88Z.0103.B00.1708080653</string>
 		<key>Board-ID</key>
-		<string>Mac-189A3D4F975D5FFC</string>
+		<string>Mac-35C1E88140C3E6CF</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02346902GUDM661F</string>
+		<string>C02435102CDFF4MAD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string>MacBookPro11,1</string>
+		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
+		<string>Air-Enclosure</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>Family</key>
-		<string>MacBook Pro</string>
+		<string>MacBook Air</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE80FE137</string>
+		<string>0xE00FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -169,11 +168,11 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x02</string>
+		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>MacBookPro11,1</string>
+		<string>MacBookAir6,1</string>
 		<key>SerialNumber</key>
-		<string>C02LQ21WFH00</string>
+		<string>C02N91N1F5NT</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
