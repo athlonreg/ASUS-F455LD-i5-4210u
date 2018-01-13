@@ -2,8 +2,8 @@
 ._*
 Static/themes/SimpleThemeDark/._*
 Static/themes/SimpleThemeDark/icons/._*
-Static/kexts/Other/ACPIBatteryManager.kext/._*
-Static/kexts/Other/ACPIBatteryManager.kext/Contents/._*
+Static/kexts/Other/ACPIBatteryManager.kext/._Contents
+Static/kexts/Other/ACPIBatteryManager.kext/Contents/._Info.plist
 Static/kexts/Other/ACPIBatteryManager.kext/Contents/MacOS/._*
 Static/kexts/Other/FakePCIID.kext/._*
 Static/kexts/Other/FakePCIID.kext/Contents/._*
