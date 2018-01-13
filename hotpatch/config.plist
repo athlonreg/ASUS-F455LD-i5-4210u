@@ -324,14 +324,14 @@
 		<string>-lilubetaall abm_firstpolldelay=12000</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
+		<key>Fast</key>
+		<true/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>5</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -378,7 +378,7 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<false/>
+			<true/>
 			<key>Tool</key>
 			<false/>
 		</dict>
