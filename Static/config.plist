@@ -52,14 +52,14 @@
 		<string>-lilubetaall abm_firstpolldelay=12000</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
-		<key>Fast</key>
-		<true/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -146,27 +146,27 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBA61.88Z.0103.B00.1708080653</string>
+		<string>MBP111.88Z.0142.B00.1708080655</string>
 		<key>Board-ID</key>
-		<string>Mac-35C1E88140C3E6CF</string>
+		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02435102CDFF4MAD</string>
+		<string>C02353108CDDMT5UE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>Air-Enclosure</string>
+		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>Family</key>
-		<string>MacBook Air</string>
+		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE00FE137</string>
+		<string>0xE80FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -176,11 +176,11 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0xFFFF</string>
+		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookAir6,1</string>
+		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02N91N1F5NT</string>
+		<string>C02LX2HKFH00</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
