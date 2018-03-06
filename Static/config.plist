@@ -49,7 +49,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall abm_firstpolldelay=12000</string>
+		<string>-lilubetaall abm_firstpolldelay=12000 -ath9565</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
