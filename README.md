@@ -45,5 +45,6 @@ And please respect the author’s work and please indicate the address of the or
 - Update CPUFriend version to 1.1.2
 - Add HibernationFixup version 1.2.0
 - Add ATH9KFixup version 1.2.0
+- Merge all acpi sets with static
 
 
