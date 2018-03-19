@@ -77,4 +77,24 @@ Then it can working as Macintosh。
 ### Finally
 Please respect the author’s work and please indicate the address of the original post if you want reprint the repo!
 
+### Changelog
+- Change VRAM from 1536MB to 2048MB
+- Change graphics from Intel HD Graphics 4400 1536 MB to Intel HD Graphics 5000 2048 MB in About This Mac
+- Change audio card from AppleALC to VoodooHDA by hotpatch
+- Update Lilu version to 1.2.2
+- Update AppleALC version to 1.2.3
+- Update Shiki version to 2.2.4
+- Update IntelGrphicsFixup version to 1.2.6
+- Update CPUFriend version to 1.1.2
+- Add HibernationFixup version 1.2.0
+- Add ATH9KFixup version 1.2.0
+
+### Credits
+- syscl
+- RehabMan
+- PMheart
+- chunnann
+- vit9696
+- so on ...
+
 

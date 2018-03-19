@@ -15,20 +15,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change _DSM to XDSM</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X0RTTQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WERTTQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml</string>
 					<key>Disabled</key>
 					<false/>
@@ -43,16 +29,30 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change B0D3 to HDAU, optionally pair with SSDT-HDAU.aml</string>
+					<string>change LPC to LPCB</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					QjBEMw==
+					TFBDXw==
 					</data>
 					<key>Replace</key>
 					<data>
-					SERBVQ==
+					TFBDQg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EUSB to EH01</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RVVTQg==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUgwMQ==
 					</data>
 				</dict>
 				<dict>
@@ -67,6 +67,48 @@
 					<key>Replace</key>
 					<data>
 					U0FUQQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC2 to EH02</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUhDMg==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUgwMg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change USBE to EH02</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					VVNCRQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUgwMg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC1 to EH01</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUhDMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUgwMQ==
 					</data>
 				</dict>
 				<dict>
@@ -123,6 +165,20 @@
 					<key>Replace</key>
 					<data>
 					WldBSwk=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HECI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SEVDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					SU1FSQ==
 					</data>
 				</dict>
 				<dict>
@@ -307,10 +363,9 @@
 		<key>SortedOrder</key>
 		<array>
 			<string>SSDT-BATT.aml</string>
-			<string>SSDT-Config.aml</string>
+			<string>SSDT-RMCF.aml</string>
 			<string>SSDT-IGPU.aml</string>
 			<string>SSDT-PNLF.aml</string>
-			<string>SSDT-HDEF.aml</string>
 			<string>SSDT-Disable_DGPU.aml</string>
 			<string>SSDT-SMBUS.aml</string>
 			<string>SSDT-SATA.aml</string>
@@ -324,14 +379,14 @@
 		<string>-lilubetaall abm_firstpolldelay=12000 -ath9565</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
-		<key>Fast</key>
-		<true/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>5</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -383,7 +438,7 @@
 			<false/>
 		</dict>
 		<key>Theme</key>
-		<string>SimpleThemeDark</string>
+		<string>mac_s</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -397,6 +452,27 @@
 		<false/>
 		<key>KernelPm</key>
 		<true/>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>1536MB -&gt; 2048MB</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				BgAmCgEDAwMAAAACAAAwAQAAYAAAAABg
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				BgAmCgEDAwMAAAACAAAwAQAAYAAAAACA
+				</data>
+			</dict>
+		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -408,31 +484,31 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>08/08/2017</string>
+		<string>02/02/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBA61.88Z.0103.B00.1708080653</string>
+		<string>MBP111.88Z.0144.B00.1802021223</string>
 		<key>Board-ID</key>
-		<string>Mac-35C1E88140C3E6CF</string>
+		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02446270OPDJWPCB</string>
+		<string>C02403102J9F49R8C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>Air-Enclosure</string>
+		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>Family</key>
-		<string>MacBook Air</string>
+		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE00FE137</string>
+		<string>0xE80FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -442,11 +518,11 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0xFFFF</string>
+		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookAir6,1</string>
+		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02NQ4GUF5NT</string>
+		<string>C02M418YFH00</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

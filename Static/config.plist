@@ -59,7 +59,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -104,7 +104,7 @@
 			<false/>
 		</dict>
 		<key>Theme</key>
-		<string>SimpleThemeDark</string>
+		<string>mac_s</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -131,6 +131,27 @@
 		<true/>
 		<key>KernelPm</key>
 		<true/>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>1536MB -&gt; 2048MB</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				BgAmCgEDAwMAAAACAAAwAQAAYAAAAABg
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				BgAmCgEDAwMAAAACAAAwAQAAkAAAAACA
+				</data>
+			</dict>
+		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -142,17 +163,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>08/08/2017</string>
+		<string>02/02/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.0142.B00.1708080655</string>
+		<string>MBP111.88Z.0144.B00.1802021223</string>
 		<key>Board-ID</key>
 		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02353108CDDMT5UE</string>
+		<string>C02344101J9DM6CA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -180,7 +201,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02LX2HKFH00</string>
+		<string>C02LN2AJFH00</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
