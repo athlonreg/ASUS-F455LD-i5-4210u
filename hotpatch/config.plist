@@ -8,7 +8,23 @@
 		<dict>
 			<key>Fixes</key>
 			<dict>
+				<key>AddDTGP</key>
+				<false/>
+				<key>FixHDA</key>
+				<false/>
+				<key>FixHPET</key>
+				<true/>
 				<key>FixHeaders</key>
+				<true/>
+				<key>FixIPIC</key>
+				<true/>
+				<key>FixRTC</key>
+				<true/>
+				<key>FixShutdown</key>
+				<true/>
+				<key>FixTMR</key>
+				<true/>
+				<key>FixWAK</key>
 				<true/>
 			</dict>
 			<key>Patches</key>
@@ -25,6 +41,34 @@
 					<key>Replace</key>
 					<data>
 					SUdQVQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change B0D3 to HDAU, optionally pair with SSDT-HDAU.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					QjBEMw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERBVQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
 					</data>
 				</dict>
 				<dict>
@@ -371,6 +415,8 @@
 			<string>SSDT-SATA.aml</string>
 			<string>SSDT-PTSWAK.aml</string>
 			<string>SSDT-PluginType1.aml</string>
+			<string>SSDT-HDEF.aml</string>
+			<string>SSDT-HDAU.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
