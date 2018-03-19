@@ -21,61 +21,18 @@ Ethernet                    Realtek RTL8168/8111/8112 Gigabit Ethernet Co
 Wireless network adapter    Atheros AR956X
 ```
 
-### Working
-![2017-12-13-01](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-01.png)
-
-![2017-12-13-02](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-02.png)
-
-![2017-12-13-03](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-03.png)
-
-![2017-12-13-04](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-04.png)
-
-![2017-12-13-05](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-05.png)
-
-![2017-12-13-06](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-06.png)
-
-![2017-12-13-07](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-07.png)
-
-![2017-12-13-08](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-08.png)
-
-![2017-12-13-09](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-09.png)
-
-![2017-12-13-10](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-10.png)
-
-![2017-12-13-11](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-11.png)
-
-![2017-12-13-12](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-12.png)
-
-![2017-12-13-13](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-13.png)
-
-![2017-12-13-14](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-14.png)
-
-### Notes
-#### About `ALCPlugFix`
-Firstly，Unzip `ALCPlugFix` to your desktop after you have installed Hackintosh。
-Secondly，open terminal：
-```
-$ cd ~/Desktop/ALCPlugFix/alc_fix
-$ chmod +x install.sh
-$ ./install.sh
-```
-The script can fix your audio with good input and switch。
-
-#### About `一键开启HIDPI并注入EDID`
-
-![2017-12-13-15](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-15.png)
-
-Just double click `双击.command`，and input your password。
-
-Then it can working as Macintosh。
-
-![2017-12-13-08](http://ovefvi4g3.bkt.clouddn.com/2017-12-13-08.png)
-
 ### Clover EFI bootloader
-[ASUS-F455LD-i5-4210u](https://github.com/athlonreg/ASUS-F455LD-i5-4210u/releases)
+You can download the Clover EFI bootloader on [ASUS-F455LD-i5-4210u](https://github.com/athlonreg/ASUS-F455LD-i5-4210u/releases)。
+    
+And please respect the author’s work and please indicate the address of the original post if you want reprint the repo!
 
-### Finally
-Please respect the author’s work and please indicate the address of the original post if you want reprint the repo!
+### Credits
+- syscl
+- RehabMan
+- PMheart
+- chunnann
+- vit9696
+- so on ...
 
 ### Changelog
 - Change VRAM from 1536MB to 2048MB
@@ -88,13 +45,5 @@ Please respect the author’s work and please indicate the address of the origin
 - Update CPUFriend version to 1.1.2
 - Add HibernationFixup version 1.2.0
 - Add ATH9KFixup version 1.2.0
-
-### Credits
-- syscl
-- RehabMan
-- PMheart
-- chunnann
-- vit9696
-- so on ...
 
 
