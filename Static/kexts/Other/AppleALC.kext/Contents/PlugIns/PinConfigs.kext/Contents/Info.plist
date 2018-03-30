@@ -1236,6 +1236,27 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<string>283902569</string>
+					<key>Comment</key>
+					<string>Toleda ALC269 patch for Brix</string>
+					<key>ConfigData</key>
+					<data>
+					IUcc8CFHHQAhRx4AIUcfQCFXHHAhVx1AIVce
+					ISFXHwIhZxzwIWcdACFnHgAhZx9AIXcc8CF3
+					HQAhdx4AIXcfQCGHHPAhhx0AIYceACGHH0Ah
+					lxzwIZcdACGXHgAhlx9AIacc8CGnHQAhpx4A
+					IacfQCG3HPAhtx0AIbceACG3H0Ah5xyQIecd
+					YSHnHksh5x8B
+					</data>
+					<key>FuncGroup</key>
+					<string>1</string>
+					<key>LayoutID</key>
+					<string>10</string>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mosser - ALC269VB Dell Precision Workstation T1600</string>
 					<key>CodecID</key>
@@ -2776,6 +2797,28 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC663</string>
+					<key>CodecID</key>
+					<integer>283903587</integer>
+					<key>Comment</key>
+					<string>Custom by alex1960 for ASUS N71J</string>
+					<key>ConfigData</key>
+					<data>
+					AUccAAFHHQEBRx4TAUcfmQA3HBAANx0AADce
+					VgA3HxgCFxwgAhcdQAIXHiECFx8BAbccMAG3
+					HUABtx4hAbcfAQHnHEAB5x0BAeceQwHnH5kB
+					hxxQAYcdCQGHHqMBhx+ZAZccYAGXHZwBlx6B
+					AZcfAQF3HPABdx0BAXceEwF3H5k=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -4480,6 +4523,78 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>351359137</integer>
+					<key>Comment</key>
+					<string>CX20641 - MacPeet - Dell OptiPlex 3010 - ManualMode</string>
+					<key>ConfigData</key>
+					<data>
+					IcccECHHHUAhxx4BIccfASGnHCAhpx2QIace
+					gSGnHwIhtxwwIbcdMCG3HoEhtx8BIZccQCGX
+					HUAhlx4hIZcfAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>351359137</integer>
+					<key>Comment</key>
+					<string>CX20641 - MacPeet - Dell OptiPlex 3010 - SwitchMode</string>
+					<key>ConfigData</key>
+					<data>
+					IcccECHHHUAhxx4RIccfkCGnHCAhpx2QIace
+					gSGnHwIhtxwwIbcdMCG3HoEhtx8BIZccQCGX
+					HUAhlx4hIZcfAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>351359138</integer>
+					<key>Comment</key>
+					<string>CX20642 - MacPeet - Fujitsu ESPRIMO E910 E90+ Desktop - ManualMode</string>
+					<key>ConfigData</key>
+					<data>
+					IcccECHHHUAhxx4BIccfASGnHCAhpx0QIace
+					gSGnHwIhlxxAIZcdECGXHiEhlx8CIdccUCHX
+					HTAh1x6BIdcfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>351359138</integer>
+					<key>Comment</key>
+					<string>CX20642 - MacPeet - Fujitsu ESPRIMO E910 E90+ Desktop - SwitchMode</string>
+					<key>ConfigData</key>
+					<data>
+					IcccECHHHUAhxx4RIccfkCGnHCAhpx0QIace
+					oSGnH5IhlxxAIZcdECGXHiEhlx8CIdccUCHX
+					HTAh1x6BIdcfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
