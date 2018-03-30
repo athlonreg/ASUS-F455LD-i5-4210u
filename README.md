@@ -27,15 +27,16 @@ You can download the Clover EFI bootloader on [ASUS-F455LD-i5-4210u](https://git
 And please respect the author’s work and please indicate the address of the original post if you want reprint the repo!
 
 ### Credits
-- syscl
-- RehabMan
-- PMheart
-- chunnann
-- vit9696
+- [syscl](https://github.com/syscl)
+- [RehabMan](https://github.com/RehabMan)
+- [PMheart](https://github.com/PMheart)
+- [chunnann](https://github.com/chunnann)
+- [vit9696](https://github.com/vit9696)
 - so on ...
 
 ### Changelog
 #### 2018.3.30
+- Update APFS.efi extract from macOS High Sierra 10.13.4
 - Change audio card from VoodooHDA to AppleALC by hotpatch
 - Update AppleALC version to 1.2.4
 - Update Shiki version to 2.2.5
