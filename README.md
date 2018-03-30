@@ -35,6 +35,12 @@ And please respect the author’s work and please indicate the address of the or
 - so on ...
 
 ### Changelog
+#### 2018.3.30
+- Change audio card from VoodooHDA to AppleALC by hotpatch
+- Update AppleALC version to 1.2.4
+- Update Shiki version to 2.2.5
+
+#### 2018.3.19
 - Change VRAM from 1536MB to 2048MB
 - Change graphics from Intel HD Graphics 4400 1536 MB to Intel HD Graphics 5000 2048 MB in About This Mac
 - Change audio card from AppleALC to VoodooHDA by hotpatch
