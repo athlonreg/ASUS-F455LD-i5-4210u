@@ -35,6 +35,10 @@ And please respect the author’s work and please indicate the address of the or
 - so on ...
 
 ### Changelog
+#### 2018.3.31
+- Change SMBIOS from MacBookPro11,1 to MacBookAir6,2
+- Update CPUFriend.kext for new MacBookAir6,2 SMBIOS
+
 #### 2018.3.30
 - Update APFS.efi extract from macOS High Sierra 10.13.4
 - Change audio card from VoodooHDA to AppleALC by hotpatch
