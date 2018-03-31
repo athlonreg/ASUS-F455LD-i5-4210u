@@ -167,27 +167,27 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.0144.B00.1802021223</string>
+		<string>MBA61.88Z.0105.B00.1802021222</string>
 		<key>Board-ID</key>
-		<string>Mac-189A3D4F975D5FFC</string>
+		<string>Mac-7DF21CB3ED6977E5</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02344101J9DM6CA8</string>
+		<string>C022522004NF6511M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
+		<string>Air-Enclosure</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>Family</key>
-		<string>MacBook Pro</string>
+		<string>MacBook Air</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE80FE137</string>
+		<string>0xE00FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -197,11 +197,11 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x02</string>
+		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>MacBookPro11,1</string>
+		<string>MacBookAir6,2</string>
 		<key>SerialNumber</key>
-		<string>C02LN2AJFH00</string>
+		<string>C02K1W59F5V7</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
