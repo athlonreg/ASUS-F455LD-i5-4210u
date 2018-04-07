@@ -35,6 +35,14 @@ And please respect the author’s work and please indicate the address of the or
 - so on ...
 
 ### Changelog
+#### 2018.4.7
+- Update CLOVER to 4429
+- Update AppleALC to 1.2.5
+- Update Lilu to 1.2.3
+- Update FakeSMC to 6.26-344
+- Remove CodecCommander
+- Fix ACLPlugFix for CX20751
+
 #### 2018.3.31
 - Change SMBIOS from MacBookPro11,1 to MacBookAir6,2
 - Update CPUFriend.kext for new MacBookAir6,2 SMBIOS
