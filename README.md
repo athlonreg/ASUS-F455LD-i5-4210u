@@ -42,8 +42,8 @@ And please respect the author’s work and please indicate the address of the or
 - Update FakeSMC to 6.26-344
 - Remove CodecCommander
 - Fix ACLPlugFix for CX20751
-- Fix a issue about display's color is too purple after enable HiDPI by `一键开启HIDPI并注入EDID`
-- Improve the shell `一键开启HIDPI并注入EDID`
+- Fix a issue about display's color is too purple after enable HiDPI by `one key hidpi`
+- Improve the shell `one key hidpi`
 
 #### 2018.3.31
 - Change SMBIOS from MacBookPro11,1 to MacBookAir6,2
