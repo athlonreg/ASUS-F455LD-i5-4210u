@@ -35,6 +35,9 @@ And please respect the author’s work and please indicate the address of the or
 - so on ...
 
 ### Changelog
+#### 2018.4.11
+- Update Shiki version to 2.2.6
+
 #### 2018.4.7
 - Update CLOVER to 4429
 - Update AppleALC to 1.2.5
