@@ -1,6 +1,8 @@
 ### 2018.4.11
 - Update Shiki version to 2.2.6
 - Update IntelGraphicsFixup to version to 1.2.7
+- Update ATH9KFixup and ATH9KInjector
+- Remove HibernationFixup 
 
 ### 2018.4.7
 - Update CLOVER to 4429
