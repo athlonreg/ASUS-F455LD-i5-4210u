@@ -1,5 +1,6 @@
 ### 2018.4.11
 - Update Shiki version to 2.2.6
+- Update IntelGraphicsFixup to version to 1.2.7
 
 ### 2018.4.7
 - Update CLOVER to 4429
