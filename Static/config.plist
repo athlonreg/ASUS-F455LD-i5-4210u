@@ -4,18 +4,6 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
-		<key>DSDT</key>
-		<dict>
-			<key>DropOEM_DSM</key>
-			<false/>
-			<key>Fixes</key>
-			<dict>
-				<key>AddPNLF</key>
-				<true/>
-				<key>FixHeaders</key>
-				<true/>
-			</dict>
-		</dict>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -31,6 +19,8 @@
 				<string>Cpu0Ist</string>
 			</dict>
 		</array>
+		<key>FixHeaders</key>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -135,12 +125,12 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>1536MB -&gt; 2048MB</string>
+				<string>Change VRAM from 1536MB to 2048MB for Intel Graphics HD4400 and HD4600(ig-platform-id: 0x0a260005)</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAYAAAAABg
+				AQMDAwAAAAIAADABAABQAAAAAGA=
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
@@ -148,7 +138,7 @@
 				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
 				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAkAAAAACA
+				AQMDAwAAAAIAADABAABQAAAAAIA=
 				</data>
 			</dict>
 		</array>
@@ -167,27 +157,27 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBA61.88Z.0105.B00.1802021222</string>
+		<string>MBP111.88Z.0144.B00.1802021223</string>
 		<key>Board-ID</key>
-		<string>Mac-7DF21CB3ED6977E5</string>
+		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C022522004NF6511M</string>
+		<string>C02430108CDFF4G1H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>Air-Enclosure</string>
+		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>Family</key>
-		<string>MacBook Air</string>
+		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE00FE137</string>
+		<string>0xE80FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -197,11 +187,11 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0xFFFF</string>
+		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookAir6,2</string>
+		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02K1W59F5V7</string>
+		<string>C02N42GBFH00</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
