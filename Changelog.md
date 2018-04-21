@@ -1,7 +1,6 @@
 ### 2018.4.22
 - Update AppleALC version to 1.2.7
 - Update FakePCIID version to 1.3.12
-- Update FakeSMC version to 6.26-344-g1cf53906.1787
 - Update RTL8111 version to 2.2.2
 - Change ig-platform-id to 0x0a260005
 - Implement backlight by DSDT
@@ -17,7 +16,7 @@
 - Update CLOVER to 4429
 - Update AppleALC to 1.2.5
 - Update Lilu to 1.2.3
-- Update FakeSMC to 6.26-344
+- Update FakeSMC to 6.26-344-g1cf53906.1787
 - Remove CodecCommander
 - Fix ACLPlugFix for CX20751
 - Fix a issue about display's color is too purple after enable HiDPI by `one key hidpi`
