@@ -4,27 +4,19 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
+		<key>AutoMerge</key>
+		<false/>
 		<key>DSDT</key>
 		<dict>
 			<key>Fixes</key>
 			<dict>
-				<key>AddDTGP</key>
-				<false/>
-				<key>FixHDA</key>
-				<false/>
 				<key>FixHPET</key>
-				<true/>
-				<key>FixHeaders</key>
 				<true/>
 				<key>FixIPIC</key>
 				<true/>
 				<key>FixRTC</key>
 				<true/>
-				<key>FixShutdown</key>
-				<true/>
 				<key>FixTMR</key>
-				<true/>
-				<key>FixWAK</key>
 				<true/>
 			</dict>
 			<key>Patches</key>
@@ -59,21 +51,21 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
+					<string>change SAT0 to SATA, optionally pair with SSDT-SATA.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					SERBUw==
+					U0FUMA==
 					</data>
 					<key>Replace</key>
 					<data>
-					SERFRg==
+					U0FUQQ==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change LPC to LPCB</string>
+					<string>change LPC to LPCB, optionally pair with SSDT-DEHCI.aml, SSDT-DEH01.aml, SSDT-DEH02.aml, SSDT-LPC.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -209,20 +201,6 @@
 					<key>Replace</key>
 					<data>
 					WldBSwk=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					SU1FSQ==
 					</data>
 				</dict>
 				<dict>
@@ -387,7 +365,13 @@
 				<key>Signature</key>
 				<string>DMAR</string>
 			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>MCFG</string>
+			</dict>
 		</array>
+		<key>FixHeaders</key>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -403,6 +387,8 @@
 				<key>PluginType</key>
 				<true/>
 			</dict>
+			<key>NoOemTableId</key>
+			<false/>
 		</dict>
 		<key>SortedOrder</key>
 		<array>
@@ -410,13 +396,12 @@
 			<string>SSDT-RMCF.aml</string>
 			<string>SSDT-IGPU.aml</string>
 			<string>SSDT-PNLF.aml</string>
-			<string>SSDT-Disable_DGPU.aml</string>
-			<string>SSDT-SMBUS.aml</string>
+			<string>SSDT-DDGPU.aml</string>
 			<string>SSDT-SATA.aml</string>
-			<string>SSDT-PTSWAK.aml</string>
-			<string>SSDT-PluginType1.aml</string>
+			<string>SSDT-XCPM.aml</string>
 			<string>SSDT-HDEF.aml</string>
 			<string>SSDT-HDAU.aml</string>
+			<string>SSDT-PTSWAK.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -432,7 +417,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>3</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -440,9 +425,15 @@
 		<true/>
 		<key>USB</key>
 		<dict>
+			<key>AddClockID</key>
+			<false/>
 			<key>FixOwnership</key>
 			<true/>
+			<key>Inject</key>
+			<false/>
 		</dict>
+		<key>UseIntelHDMI</key>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -484,7 +475,7 @@
 			<false/>
 		</dict>
 		<key>Theme</key>
-		<string>mac_s</string>
+		<string>SimpleThemeDark</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -498,16 +489,179 @@
 		<false/>
 		<key>KernelPm</key>
 		<true/>
-		<key>KextsToPatch</key>
+		<key>KernelToPatch</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>1536MB -&gt; 2048MB</string>
+				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAYAAAAABg
+				ILniAAAADzA=
+				</data>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+				<key>Replace</key>
+				<data>
+				ILniAAAAkJA=
+				</data>
+			</dict>
+		</array>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable 9MB cursor bytes, 0x0a260006</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				BgAmCgEDAwMAAAACAAAwAQAAYAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				BgAmCgEDAwMAAAACAAAwAQAAkAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable 128MB DVMT-prealloc, 48MB framebuffer, 48MB cursor bytes, 0x0a260006</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				BgAmCgEDAwMAAAACAAAwAQAAYAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				BgAmCgEDAwMAAAAIAAAAAwAAAAM=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0105, 0x0a260005 0x0a260006, 0x0d220003, 0x0a2e000a, 0x0a26000a</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQUJAAAEAACHAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				AQUJAAAIAACHAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0204, 0x0a260005 0x0a260006</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AgQJAAAEAACHAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				AgQJAAAIAACHAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0105(12), 0x0a260005 0x0a260006, 0x0d220003, 0x0a2e000a, 0x0a26000a</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQUJAAAEAACHAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				AQUSAAAIAACHAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI-audio, port 0204(12), 0x0a260005 0x0a260006</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AgQJAAAEAACHAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				AgQSAAAIAACHAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RiV1VCUwNHgA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleBacklight</string>
+				<key>Replace</key>
+				<data>
+				RiV1VHh4eHgA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Change VRAM from 1536MB to 2048MB for Intel Graphics HD4400 and HD4600(ig-platform-id: 0x0a260005)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQMDAwAAAAIAADABAABQAAAAAGA=
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
@@ -515,7 +669,7 @@
 				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
 				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAYAAAAACA
+				AQMDAwAAAAIAADABAABQAAAAAIA=
 				</data>
 			</dict>
 		</array>
@@ -534,27 +688,27 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBA61.88Z.0105.B00.1802021222</string>
+		<string>MBP111.88Z.0144.B00.1802021223</string>
 		<key>Board-ID</key>
-		<string>Mac-7DF21CB3ED6977E5</string>
+		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C023149024NFF4NJA</string>
+		<string>C02442200OPF116UE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>Air-Enclosure</string>
+		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>Family</key>
-		<string>MacBook Air</string>
+		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE00FE137</string>
+		<string>0xE80FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -564,11 +718,11 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0xFFFF</string>
+		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookAir6,2</string>
+		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02KKQKNF5V7</string>
+		<string>C02NLS7EFH00</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
