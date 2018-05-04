@@ -5,8 +5,7 @@ Computer model              Asus F455LD Notebook
 
 CPU                         Intel Core i5-4210u
 
-Operate System              Windows10 Education 64bit + macOS High Sierra 17B25c
-                            + Windows7 Ultimate + ElementaryOS base on Ubuntu 16.04
+Operate System             Windows10 1803 + macOS High Sierra 17F59b + Ubuntu 18.04
 
 Main board                  Asus X455LD Intel Haswell-ULT - Lynx Point-LP
 
@@ -21,10 +20,10 @@ Ethernet                    Realtek RTL8168/8111/8112 Gigabit Ethernet Co
 Wireless network adapter    Atheros AR956X
 ```
 
-### Clover EFI bootloader
-You can download the Clover EFI bootloader on [ASUS-F455LD-i5-4210u](https://github.com/athlonreg/ASUS-F455LD-i5-4210u/releases)。
-    
-And please respect the author’s work and please indicate the address of the original post if you want reprint the repo!
+### Contribute
+I will appreciate if somebody can improve the configurator files。
+
+And you can fork my repo to you github and commit some feature work to push to dev branch, then pull a request, i will check the work you do, and merge to master ´◡`
 
 ### Credits
 - [syscl](https://github.com/syscl)
