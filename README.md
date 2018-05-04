@@ -5,7 +5,7 @@ Computer model              Asus F455LD Notebook
 
 CPU                         Intel Core i5-4210u
 
-Operate System             Windows10 1803 + macOS High Sierra 17F59b + Ubuntu 18.04
+Operate System              Windows10 1803 + macOS High Sierra 17F59b + Ubuntu 18.04
 
 Main board                  Asus X455LD Intel Haswell-ULT - Lynx Point-LP
 
@@ -31,6 +31,7 @@ And you can fork my repo to you github and commit some feature work to push to d
 - [PMheart](https://github.com/PMheart)
 - [chunnann](https://github.com/chunnann)
 - [vit9696](https://github.com/vit9696)
+- [lvs1974](https://github.com/lvs1974)
 - so on ...
 
 ### Changelog
