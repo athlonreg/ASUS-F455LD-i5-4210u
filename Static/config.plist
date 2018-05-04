@@ -125,12 +125,12 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Change VRAM from 1536MB to 2048MB for Intel Graphics HD4400 and HD4600(ig-platform-id: 0x0a260005)</string>
+				<string>VRAM 1024 -&gt; 2048 for 0x0a160000</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AQMDAwAAAAIAADABAABQAAAAAGA=
+				AAAAQNkKAADZCgAAAAAAAA==
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
@@ -138,7 +138,7 @@
 				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
 				<data>
-				AQMDAwAAAAIAADABAABQAAAAAIA=
+				AAAAgNkKAADZCgAAAAAAAA==
 				</data>
 			</dict>
 		</array>
