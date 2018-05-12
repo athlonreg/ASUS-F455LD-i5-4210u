@@ -125,12 +125,12 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>VRAM 1024 -&gt; 2048 for 0x0a160000</string>
+				<string>VRAM 1024 -&gt; 2048 for 0x0a260005</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AAAAQNkKAADZCgAAAAAAAA==
+				AAAAYNkKAADZCgAAAAAAAA==
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
