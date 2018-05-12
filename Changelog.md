@@ -1,7 +1,7 @@
 - 2018.5.4
-  - Update CLOVER version to 4449
+  - Update CLOVER version to 4458
   - Update VRAM patch without changing graphics connector data
-  - Change ig-platform-id to 0x0a160000 from 0x0a260005
+  - Change ig-platform-id to 0x0a260006 from 0x0a260005
   - Add ALCPlugFix-LayoutID=3.zip for cx20751/2 that Line In node is 0x18 
 
 - 2018.4.22
