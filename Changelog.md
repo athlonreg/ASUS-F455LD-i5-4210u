@@ -1,3 +1,12 @@
+- 2018.5.17 / 更新`PCI`信息描述
+  - 声卡`HDEF`设备
+  - 以太网卡设备
+  - `SATA`设备
+  - `EHC1`设备
+  - `XHC`设备
+  - `SBUS`设备
+  ![BA064C50E7C88882A9D0EEC62084BF39](http://ovefvi4g3.bkt.clouddn.com/BA064C50E7C88882A9D0EEC62084BF39.jpg)
+
 - 2018.5.4
   - Update CLOVER version to 4458
   - Update VRAM patch without changing graphics connector data
