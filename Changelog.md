@@ -5,7 +5,9 @@
   - `EHC1`设备
   - `XHC`设备
   - `SBUS`设备
-  ![BA064C50E7C88882A9D0EEC62084BF39](http://ovefvi4g3.bkt.clouddn.com/BA064C50E7C88882A9D0EEC62084BF39.jpg)
+  - `IGPU`设备
+
+  ![](http://ovefvi4g3.bkt.clouddn.com/15265693466666.jpg)
 
 - 2018.5.4
   - Update CLOVER version to 4458
