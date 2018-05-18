@@ -411,6 +411,7 @@
 			<string>SSDT-HDD.aml</string>
 			<string>SSDT-SBUS.aml</string>
 			<string>SSDT-MOUSE.aml</string>
+			<string>SSDT-IMEI.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
