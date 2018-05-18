@@ -412,6 +412,7 @@
 			<string>SSDT-SBUS.aml</string>
 			<string>SSDT-MOUSE.aml</string>
 			<string>SSDT-IMEI.aml</string>
+			<string>SSDT-MCHC.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
