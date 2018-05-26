@@ -1,11 +1,19 @@
-- 2018.5.17 / 更新`PCI`信息描述
-  - 声卡`HDEF`设备
-  - 以太网卡设备
-  - `SATA`设备
-  - `EHC1`设备
-  - `XHC`设备
-  - `SBUS`设备
-  - `IGPU`设备
+- 2018.5.27
+  - Fixed PCI Device Desc 
+  - Update CLOVER version to 4499 
+  - Added CsmVideoDxe-64.efi into drivers64UEFI 
+
+- 2018.5.17 / Added PCI Device Desc 
+  - Added HDEF Device Desc 
+  - Added HDAU Device Desc 
+  - Added Ethernet Device Desc 
+  - Added SATA Device Desc 
+  - Added EHC1 Device Desc 
+  - Added XHCI Device Desc 
+  - Added SBUS Device Desc 
+  - Added IGPU Device Desc 
+  - Added Airport Device Desc 
+  - Added IMEI Device Desc 
 
   ![](http://ovefvi4g3.bkt.clouddn.com/15265693466666.jpg)
 
