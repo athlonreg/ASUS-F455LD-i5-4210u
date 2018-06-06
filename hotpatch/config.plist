@@ -4,8 +4,6 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
-		<key>AutoMerge</key>
-		<false/>
 		<key>DSDT</key>
 		<dict>
 			<key>Fixes</key>
@@ -14,27 +12,9 @@
 				<true/>
 				<key>FixIPIC</key>
 				<true/>
-				<key>FixRTC</key>
-				<true/>
-				<key>FixTMR</key>
-				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change B0D3 to HDAU, optionally pair with SSDT-HDAU.aml</string>
@@ -187,6 +167,20 @@
 					<key>Replace</key>
 					<data>
 					WldBSwk=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0ZYMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SUdQVQ==
 					</data>
 				</dict>
 				<dict>
@@ -403,16 +397,11 @@
 			<string>SSDT-HDAU.aml</string>
 			<string>SSDT-PTSWAK.aml</string>
 			<string>SSDT-ATH9565.aml</string>
-			<string>SSDT-CAMERA.aml</string>
 			<string>SSDT-RTL8111.aml</string>
-			<string>SSDT-SSD.aml</string>
 			<string>SSDT-EHC1.aml</string>
 			<string>SSDT-XHC.aml</string>
-			<string>SSDT-HDD.aml</string>
 			<string>SSDT-SBUS.aml</string>
-			<string>SSDT-MOUSE.aml</string>
 			<string>SSDT-IMEI.aml</string>
-			<string>SSDT-MCHC.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -440,8 +429,6 @@
 			<false/>
 			<key>FixOwnership</key>
 			<true/>
-			<key>Inject</key>
-			<false/>
 		</dict>
 		<key>UseIntelHDMI</key>
 		<false/>
@@ -483,8 +470,10 @@
 			<key>Linux</key>
 			<true/>
 			<key>Tool</key>
-			<false/>
+			<true/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>1366x768</string>
 		<key>Theme</key>
 		<string>SimpleThemeDark</string>
 	</dict>
