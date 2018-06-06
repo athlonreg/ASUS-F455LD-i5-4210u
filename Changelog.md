@@ -1,3 +1,11 @@
+- 2018.6.6
+  - Update AppleALC version to 1.2.8
+  - Update CLOVER version to 4513
+  - Support macOS Mojave
+  - Update Lilu version to 1.2.4
+  - Update drivers64UEFI base on Clover_v2.4k_r4519
+  - Update apfs.efi to macOS Mojave 10.14 developer beta 1
+
 - 2018.6.2
   - Update AppleALC version to 1.2.7
   - Update Shiki version to 2.2.7
