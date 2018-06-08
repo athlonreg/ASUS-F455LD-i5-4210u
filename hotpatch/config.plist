@@ -472,8 +472,6 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1366x768</string>
 		<key>Theme</key>
 		<string>SimpleThemeDark</string>
 	</dict>
