@@ -1,4 +1,18 @@
 # Changelog
+- 2018.6.18
+  - Update AppleALC to compatable only for CX20751 layout-id 28
+  - Update Lilu version to 1.2.4 for new api
+  - Update CPUFriend version to 1.1.4
+  - Update CLOVER version to 4558
+  - Added ApfsDriverLoader.efi instead of apfs.efi
+  - Update drivers64UEFI base on Clover_v2.4k_r4558
+  - Remove unuse drivers in drivers64UEFI
+  - Fixed some PCI device display to Driver Installed: Yes
+  - Remove docs dir
+  - Remove Tools dir
+  - Remove unuse SSDT in ACPI/patched
+  - Update one key hidpi
+
 - 2018.6.8
   - Update AppleALC version to 1.2.8
   - Update Lilu version to 1.2.4
