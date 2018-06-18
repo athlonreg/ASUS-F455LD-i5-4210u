@@ -35,5 +35,3 @@ $ Vid=$(echo "obase=16;$VendorID" | bc | tr 'A-Z' 'a-z')
 $ rm -rf ./DisplayVendorID-$Vid
 $ cp -r ./backup/* ./
 ```
-
-
