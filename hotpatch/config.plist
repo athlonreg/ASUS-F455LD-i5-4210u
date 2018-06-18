@@ -73,20 +73,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change SAT0 to SATA, optionally pair with SSDT-SATA.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change EH02 to EHC2</string>
 					<key>Disabled</key>
 					<false/>
@@ -400,7 +386,7 @@
 			<string>SSDT-RTL8111.aml</string>
 			<string>SSDT-EHC1.aml</string>
 			<string>SSDT-XHC.aml</string>
-			<string>SSDT-SBUS.aml</string>
+			<string>SSDT-SMBUS.aml</string>
 			<string>SSDT-IMEI.aml</string>
 		</array>
 	</dict>
@@ -473,7 +459,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>SimpleThemeDark</string>
+		<string>random</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
