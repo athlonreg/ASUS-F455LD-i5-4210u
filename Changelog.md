@@ -1,4 +1,11 @@
 # Changelog
+- 2018.6.29
+  - Update CLOVER version to 4586
+  - Update drivers64UEFI based on Clover_v2.4k_r4586
+  - Delete some useless files in drivers64UEFI
+  - Change Clover GUI themes to mNight credits [lihaoyun6](https://github.com/lihaoyun6)
+  - Added mNight Clover GUI themes credits [lihaoyun6](https://github.com/lihaoyun6)
+
 - 2018.6.18
   - Update AppleALC to compatable only for CX20751 layout-id 28
   - Update Lilu version to 1.2.4 for new api
@@ -18,7 +25,7 @@
   - Update Lilu version to 1.2.4
   - Update CLOVER version to 4522
   - Update apfs.efi based on macOS Mojave beta 1
-  - Update drivers64UEFI base on Clover_v2.4k_r4522
+  - Update drivers64UEFI based on Clover_v2.4k_r4522
   - Support macOS Mojave
 
 - 2018.6.2
