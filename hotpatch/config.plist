@@ -425,7 +425,6 @@
 		<array>
 			<string>Preboot</string>
 			<string>Recovery</string>
-			<string>Boot FireWolf OS X PE 9</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
