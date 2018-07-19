@@ -380,12 +380,13 @@
 			<string>SSDT-FnKey.aml</string>
 			<string>SSDT-XCPM.aml</string>
 			<string>SSDT-PTSWAK.aml</string>
+			<string>SSDT-ALS0.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall -ath9565 abm_firstpolldelay=13000 igfxfw=1 igfxrst=1</string>
+		<string>-lilubetaall -ath9565 abm_firstpolldelay=13000</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
@@ -482,17 +483,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/02/2018</string>
+		<string>04/11/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.0144.B00.1802021223</string>
+		<string>MBP111.88Z.0146.B00.1804111138</string>
 		<key>Board-ID</key>
 		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02442200OPF116UE</string>
+		<string>C02418108QXF64WCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -520,7 +521,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02NLS7EFH00</string>
+		<string>C02MP1DHFH00</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
