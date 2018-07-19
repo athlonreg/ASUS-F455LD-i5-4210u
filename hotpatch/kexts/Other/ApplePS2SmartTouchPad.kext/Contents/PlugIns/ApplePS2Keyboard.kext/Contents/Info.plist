@@ -140,7 +140,7 @@
 			<key>Fn keys Layout</key>
 			<string>NONE</string>
 			<key>Fn keys Mode</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>IOClass</key>
 			<string>ApplePS2Keyboard</string>
 			<key>IOProviderClass</key>
