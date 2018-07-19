@@ -1,4 +1,17 @@
 # Changelog
+- 2018.7.19
+  - Update CLOVER version to 4600
+  - Update drivers64UEFI based on Clover_v2.4k_r4600
+  - Added SSDT-ALS0.aml
+  - Update AppleALC to 1.3.0
+  - Update Lilu to 1.2.5
+  - Merge all PCI SSDT to SSDT-PCI-List.aml
+  - Merge IGFX and Shiki to WhateverGreen
+  - Added SSDT-FnKey.aml
+  - Added config-mbp151 and config-mbp152 to support future update
+  - Clear one key hidpi script
+  - Update ATH9KFixup to support Mojave
+  
 - 2018.6.29
   - Update CLOVER version to 4586
   - Update drivers64UEFI based on Clover_v2.4k_r4586
