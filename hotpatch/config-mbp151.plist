@@ -398,6 +398,11 @@
 		<key>Timeout</key>
 		<integer>3</integer>
 	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>Type</key>
+		<string>0x0705</string>
+	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>SetIntelBacklight</key>
