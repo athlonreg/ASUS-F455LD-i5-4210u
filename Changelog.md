@@ -1,5 +1,5 @@
 # Changelog
-- 2018.7.19
+- 2018.7.20
   - Update CLOVER version to 4614
   - Update drivers64UEFI based on Clover_v2.4k_r4614
   - Added SSDT-ALS0.aml
