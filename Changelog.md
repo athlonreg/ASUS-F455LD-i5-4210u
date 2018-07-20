@@ -1,7 +1,7 @@
 # Changelog
 - 2018.7.19
-  - Update CLOVER version to 4600
-  - Update drivers64UEFI based on Clover_v2.4k_r4600
+  - Update CLOVER version to 4614
+  - Update drivers64UEFI based on Clover_v2.4k_r4614
   - Added SSDT-ALS0.aml
   - Update AppleALC to 1.3.0
   - Update Lilu to 1.2.5
@@ -11,6 +11,8 @@
   - Added config-mbp151 and config-mbp152 to support future update
   - Clear one key hidpi script
   - Update ATH9KFixup to support Mojave
+  - Update CPUFriend to 1.1.4
+  - Added working device desc
   
 - 2018.6.29
   - Update CLOVER version to 4586
