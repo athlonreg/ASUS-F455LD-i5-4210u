@@ -37,7 +37,7 @@ Wireless network adapter    Atheros AR956X
 ![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/53/9517cd7c151159ddfcfd08db7c74de.jpg)
 
 > Graphics
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/2c/3387f5c10f2f5c0f6ac38f7f2e2f32.jpg)
+![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/08/cbb3b395baf17368c2344789007f0c.jpg)
 
 > USB
 ![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/d7/614a92e0b63bc9fc8a1decfa509056.jpg)
@@ -46,7 +46,7 @@ Wireless network adapter    Atheros AR956X
 ![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/7c/095ae2673ae3fbb0d60f121688ede8.jpg)
 
 > PCI List
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/82/d8cbea670934107f45ab17760976b5.jpg)
+![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/60/eaeef37837817879fd4643bdaf4110.jpg)
 
 > Brightness
 ![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/a9/72cbe0a892e22f2debb064a0f9614d.jpg)
@@ -55,7 +55,7 @@ Wireless network adapter    Atheros AR956X
 ![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/af/fc91c3a4afa383b07d4d984efdafb6.jpg)
 
 > About
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/cb/4e5f00a95e4b78bbb3ef5a22f638a4.jpg)
+![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/6b/f40ff79e0c02ccd9d5069c96e866b6.jpg)
 
 > Display built in
 ![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/62/b17ff56e0b2b6f2b0ece45ece8e53f.jpg)
