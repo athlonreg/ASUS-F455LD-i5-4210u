@@ -1,4 +1,19 @@
 # Changelog
+- 2018.8.5
+  - Update CLOVER version to 4636
+  - Update drivers64UEFI based on Clover_v2.4k_r4636
+  - Update AppleALC to 1.3.1
+  - Update Lilu to 1.2.6
+  - Update ATH9KFixup to support Mojave
+  - Update CPUFriend to 1.1.4
+  - Update WhateverGreen to 1.2.1
+  - Clear unless device info in PCI-List
+  - Use new way provided by WhateverGreen for framebuffer patch to replace KextToPatch
+  - Update CPU info to i7
+  - Update CPU Frequency to 2.7GHz
+  - Update IGPU to Intel Iris Plus Graphics 655
+  - Update SMBIOS to MacBook Pro15,2
+
 - 2018.7.20
   - Update CLOVER version to 4614
   - Update drivers64UEFI based on Clover_v2.4k_r4614
@@ -10,8 +25,6 @@
   - Added SSDT-FnKey.aml
   - Added config-mbp151 and config-mbp152 to support future update
   - Clear one key hidpi script
-  - Update ATH9KFixup to support Mojave
-  - Update CPUFriend to 1.1.4
   - Added working device desc
   
 - 2018.6.29
