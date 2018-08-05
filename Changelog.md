@@ -13,6 +13,8 @@
   - Update CPU Frequency to 2.7GHz
   - Update IGPU to Intel Iris Plus Graphics 655
   - Update SMBIOS to MacBook Pro15,2
+  
+  ![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/60/8d18a5fd6a30ada82cad14044f33df.jpg)
 
 - 2018.7.20
   - Update CLOVER version to 4614
