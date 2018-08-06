@@ -374,13 +374,13 @@
 		<array>
 			<string>SSDT-BATT.aml</string>
 			<string>SSDT-RMCF.aml</string>
-			<string>SSDT-PCI-List.aml</string>
 			<string>SSDT-PNLF.aml</string>
 			<string>SSDT-DDGPU.aml</string>
 			<string>SSDT-FnKey.aml</string>
 			<string>SSDT-XCPM.aml</string>
 			<string>SSDT-PTSWAK.aml</string>
 			<string>SSDT-ALS0.aml</string>
+			<string>SSDT-PCI-List.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -409,10 +409,54 @@
 	<dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI Express 3.0</string>
+				<key>built-in</key>
+				<integer>1</integer>
+				<key>device-id</key>
+				<string>0x8168</string>
+				<key>device_type</key>
+				<string>Ethernet Controller</string>
+				<key>model</key>
+				<string>Realtek RTL8168/8111/8112 Gigabit Ethernet Controller/Asus</string>
+				<key>name</key>
+				<string>Realtek Ethernet Controller</string>
+				<key>vendor-id</key>
+				<string>0x10EC</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI Express 3.0</string>
+				<key>built-in</key>
+				<integer>1</integer>
+				<key>device-id</key>
+				<string>0x0036</string>
+				<key>device_type</key>
+				<string>AirPort Extreme</string>
+				<key>model</key>
+				<string>Atheros 9565 802.11 b/g/n Wireless Network Adapter</string>
+				<key>name</key>
+				<string>Atheros 9565</string>
+				<key>subsystem-id</key>
+				<string>0x0662</string>
+				<key>subsystem-vendor-id</key>
+				<string>0x11ad</string>
+				<key>vendor-id</key>
+				<string>0x168c</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<string>0x0a260006</string>
+				<data>
+				BgAmCg==
+				</data>
+				<key>AAPL,slot-name</key>
+				<string>PCI Express 3.0</string>
+				<key>device-id</key>
+				<string>0x0412</string>
 				<key>framebuffer-con0-type</key>
 				<data>
 				AgAAAA==
@@ -431,6 +475,10 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel Iris Plus Graphics 655</string>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
