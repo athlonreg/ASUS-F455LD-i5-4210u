@@ -1,9 +1,17 @@
 # Changelog
+- 2018.8.28
+  - Update CLOVER version to 4662
+  - Update drivers64UEFI based on Clover_v2.4k_r4662
+  - Update AppleALC to 1.3.1
+  - Update Lilu to 1.2.6
+  - Update WhateverGreen to 1.2.1
+  - Update SMBIOS info
+  - Added NoTouchID.kext to disable TouchID verify
+  - Update SSDT-PCI-List and SSDT-RMCF
+
 - 2018.8.5
   - Update CLOVER version to 4636
   - Update drivers64UEFI based on Clover_v2.4k_r4636
-  - Update AppleALC to 1.3.1
-  - Update Lilu to 1.2.6
   - Update ATH9KFixup to support Mojave
   - Update CPUFriend to 1.1.4
   - Update WhateverGreen to 1.2.1
