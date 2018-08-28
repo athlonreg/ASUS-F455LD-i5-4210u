@@ -55,10 +55,6 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>FrequencyMHz</key>
-		<integer>2700</integer>
-		<key>Type</key>
-		<string>0x0705</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -163,17 +159,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/02/2018</string>
+		<string>04/11/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.0144.B00.1802021223</string>
+		<string>MBP111.88Z.0146.B00.1804111138</string>
 		<key>Board-ID</key>
 		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02430108CDFF4G1H</string>
+		<string>C02339300GUDKG2JC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -194,40 +190,6 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
-		<key>Memory</key>
-		<dict>
-			<key>Modules</key>
-			<array>
-				<dict>
-					<key>Frequency</key>
-					<integer>2133</integer>
-					<key>Part</key>
-					<string>HMT351S6EFR8A-PBN0</string>
-					<key>Serial</key>
-					<string>3040603090903</string>
-					<key>Size</key>
-					<integer>4096</integer>
-					<key>Slot</key>
-					<integer>0</integer>
-					<key>Type</key>
-					<string>DDR4</string>
-					<key>Vendor</key>
-					<string>SK Hynix</string>
-				</dict>
-				<dict>
-					<key>Frequency</key>
-					<integer>2133</integer>
-					<key>Size</key>
-					<integer>4096</integer>
-					<key>Slot</key>
-					<integer>1</integer>
-					<key>Type</key>
-					<string>DDR4</string>
-					<key>Vendor</key>
-					<string>Micron</string>
-				</dict>
-			</array>
-		</dict>
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
@@ -235,7 +197,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02N42GBFH00</string>
+		<string>C02LGXZMFH00</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

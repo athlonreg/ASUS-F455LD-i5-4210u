@@ -173,9 +173,9 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02418108QXF64WCB</string>
+		<string>C02818404GUF0V5FB</string>
 		<key>BoardType</key>
-		<integer>11</integer>
+		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
@@ -235,7 +235,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,1</string>
 		<key>SerialNumber</key>
-		<string>C02X1HACKGYG</string>
+		<string>C02WNCZVKGYG</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
