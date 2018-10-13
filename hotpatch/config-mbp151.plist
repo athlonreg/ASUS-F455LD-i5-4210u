@@ -356,10 +356,6 @@
 		<dict>
 			<key>Generate</key>
 			<dict>
-				<key>APLF</key>
-				<false/>
-				<key>APSN</key>
-				<false/>
 				<key>CStates</key>
 				<false/>
 				<key>PStates</key>
@@ -374,13 +370,13 @@
 		<array>
 			<string>SSDT-BATT.aml</string>
 			<string>SSDT-RMCF.aml</string>
-			<string>SSDT-PCI-List.aml</string>
 			<string>SSDT-PNLF.aml</string>
 			<string>SSDT-DDGPU.aml</string>
 			<string>SSDT-FnKey.aml</string>
 			<string>SSDT-XCPM.aml</string>
 			<string>SSDT-PTSWAK.aml</string>
 			<string>SSDT-ALS0.aml</string>
+			<string>SSDT-PCI-List.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -397,13 +393,6 @@
 		<false/>
 		<key>Timeout</key>
 		<integer>3</integer>
-	</dict>
-	<key>CPU</key>
-	<dict>
-		<key>FrequencyMHz</key>
-		<integer>2700</integer>
-		<key>Type</key>
-		<string>0x0705</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -450,38 +439,46 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<string>0x0a260006</string>
-				<key>framebuffer-con0-type</key>
 				<data>
-				AgAAAA==
+				BgAmCg==
 				</data>
-				<key>framebuffer-fbmem</key>
+				<key>AAPL,slot-name</key>
+				<string>PCI Express 3.0</string>
+				<key>enable-hdmi20</key>
 				<data>
-				AACQAA==
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con2-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con2-type</key>
+				<data>
+				AAgAAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-stolenmem</key>
 				<data>
-				AAAwAQ==
+				AQAAAA==
 				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel Iris Plus Graphics 655</string>
 			</dict>
 		</dict>
-		<key>SetIntelBacklight</key>
-		<true/>
 		<key>USB</key>
 		<dict>
-			<key>AddClockID</key>
-			<false/>
 			<key>FixOwnership</key>
 			<true/>
 		</dict>
-		<key>UseIntelHDMI</key>
-		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -543,7 +540,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02824500GUDNY3CB</string>
+		<string>C02836100QXF503FB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -564,40 +561,6 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
-		<key>Memory</key>
-		<dict>
-			<key>Modules</key>
-			<array>
-				<dict>
-					<key>Frequency</key>
-					<integer>2133</integer>
-					<key>Part</key>
-					<string>HMT351S6EFR8A-PBN0</string>
-					<key>Serial</key>
-					<string>3040603090903</string>
-					<key>Size</key>
-					<integer>4096</integer>
-					<key>Slot</key>
-					<integer>0</integer>
-					<key>Type</key>
-					<string>DDR4</string>
-					<key>Vendor</key>
-					<string>SK Hynix</string>
-				</dict>
-				<dict>
-					<key>Frequency</key>
-					<integer>2133</integer>
-					<key>Size</key>
-					<integer>4096</integer>
-					<key>Slot</key>
-					<integer>1</integer>
-					<key>Type</key>
-					<string>DDR4</string>
-					<key>Vendor</key>
-					<string>Micron</string>
-				</dict>
-			</array>
-		</dict>
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
@@ -605,7 +568,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,1</string>
 		<key>SerialNumber</key>
-		<string>C02WV4Y1KGYG</string>
+		<string>C02XC0HFKGYG</string>
+		<key>SmUUID</key>
+		<string>7661B213-4782-496F-AC8C-3A7215F7E0ED</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

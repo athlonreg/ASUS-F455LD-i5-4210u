@@ -32,7 +32,7 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<false/>
+				<true/>
 			</dict>
 		</dict>
 	</dict>
@@ -55,10 +55,6 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>FrequencyMHz</key>
-		<integer>2700</integer>
-		<key>Type</key>
-		<string>0x0705</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -66,6 +62,44 @@
 	<dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI Express 3.0</string>
+				<key>built-in</key>
+				<integer>1</integer>
+				<key>device-id</key>
+				<string>0x8168</string>
+				<key>device_type</key>
+				<string>Ethernet Controller</string>
+				<key>model</key>
+				<string>Realtek RTL8168/8111/8112 Gigabit Ethernet Controller/Asus</string>
+				<key>name</key>
+				<string>Realtek Ethernet Controller</string>
+				<key>vendor-id</key>
+				<string>0x10EC</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI Express 3.0</string>
+				<key>built-in</key>
+				<integer>1</integer>
+				<key>device-id</key>
+				<string>0x0036</string>
+				<key>device_type</key>
+				<string>AirPort Extreme</string>
+				<key>model</key>
+				<string>Atheros 9565 802.11 b/g/n Wireless Network Adapter</string>
+				<key>name</key>
+				<string>Atheros 9565</string>
+				<key>subsystem-id</key>
+				<string>0x0662</string>
+				<key>subsystem-vendor-id</key>
+				<string>0x11ad</string>
+				<key>vendor-id</key>
+				<string>0x168c</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -91,7 +125,7 @@
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
-		<true/>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -139,7 +173,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<false/>
+			<true/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
@@ -173,7 +207,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02818404GUF0V5FB</string>
+		<string>C028263064NDNJL8C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -194,40 +228,6 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
-		<key>Memory</key>
-		<dict>
-			<key>Modules</key>
-			<array>
-				<dict>
-					<key>Frequency</key>
-					<integer>2133</integer>
-					<key>Part</key>
-					<string>HMT351S6EFR8A-PBN0</string>
-					<key>Serial</key>
-					<string>3040603090903</string>
-					<key>Size</key>
-					<integer>4096</integer>
-					<key>Slot</key>
-					<integer>0</integer>
-					<key>Type</key>
-					<string>DDR4</string>
-					<key>Vendor</key>
-					<string>SK Hynix</string>
-				</dict>
-				<dict>
-					<key>Frequency</key>
-					<integer>2133</integer>
-					<key>Size</key>
-					<integer>4096</integer>
-					<key>Slot</key>
-					<integer>1</integer>
-					<key>Type</key>
-					<string>DDR4</string>
-					<key>Vendor</key>
-					<string>Micron</string>
-				</dict>
-			</array>
-		</dict>
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
@@ -235,7 +235,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,1</string>
 		<key>SerialNumber</key>
-		<string>C02WNCZVKGYG</string>
+		<string>C02WXWYLKGYG</string>
+		<key>SmUUID</key>
+		<string>A7D886DC-B85A-4026-B59A-314337E81BCF</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
