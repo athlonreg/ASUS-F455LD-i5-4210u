@@ -1,10 +1,26 @@
 # Changelog
+- 2018.10.13
+  - Update CLOVER version to 4704
+  - Update drivers64UEFI based on Clover_v2.4k_r4704
+  - Update AppleALC to 1.3.2
+  - Update Lilu to 1.2.7
+  - Update WhateverGreen to 1.2.2
+  - Update SMBIOS info
+  - Update FakeSMC to 6.26-357
+  - Update CPUFriend to 1.1.5
+  - Update CodecCommander to 2.7.1
+  - Added AppleBacklightFixup to use ACPIBacklight instead of IntelBacklight
+  - Update ACPIBatteryManager to 1.90
+  - Added config-mbp11,1、config-mba6,1
+  - Update SSDT-RMCF from RehabMan's repository OS-X-Clover-Laptop-Config
+  - Fixed ALCPlugFix for CX20751 LayoutID 3 and LayoutID 28
+  - Added all plugins of FakeSMC to detect more sensor status info
+
 - 2018.8.28
   - Update CLOVER version to 4662
   - Update drivers64UEFI based on Clover_v2.4k_r4662
   - Update AppleALC to 1.3.1
   - Update Lilu to 1.2.6
-  - Update WhateverGreen to 1.2.1
   - Update SMBIOS info
   - Added NoTouchID.kext to disable TouchID verify
   - Update SSDT-PCI-List and SSDT-RMCF
