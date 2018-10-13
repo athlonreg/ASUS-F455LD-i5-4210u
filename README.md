@@ -1,64 +1,80 @@
 ### Laptop Configuration
 
 ```
-Computer model              Asus F455LD Notebook
-CPU                         Intel Core i5-4210u
-Operate System              High Sierra 17G2112 + Mojave beta
-Main board                  Asus X455LD Intel Haswell-ULT - Lynx Point-LP
+Computer model              Asus F455LD Notebook 
+CPU                         Intel Core i5-4210u 
+Operate System              macOS Mojave + Windows 10 Professional Workstation + Ubuntu 18.04 LTSB 
+Main board                  Asus X455LD Intel Haswell-ULT - Lynx Point-LP 
 Discret egraphics           Nvidia GeForce 820M 2G 
-Integrated graphics         HD4400
-Audio                       Realtek @ Intel Lynx Point-LP  High Definition Audio (CX20751)
-Ethernet                    Realtek RTL8168/8111/8112 Gigabit Ethernet Controller / Asus
-Wireless network adapter    Atheros AR956X
+Integrated graphics         Intel HD Graphics 4400 
+Audio                       Realtek @ Intel Lynx Point-LP  High Definition Audio (CX20751) 
+Ethernet                    Realtek RTL8168/8111/8112 Gigabit Ethernet Controller / Asus 
+Wireless network adapter    Atheros AR956X 
 ```
 
 ### Working
-> Bright Controller
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/4e/48b2996fbe92543781e8c4ef529e63.jpg)
+> Backlight Controller
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Backlight-Controller.png)
 
-> Native Power Manager
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/0a/43a88876bdc1751c5fb8cdab7bd579.jpg)
+> Full Power Manager
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Full-Power-Manager-1.png)
+
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Full-Power-Manager-2.png)
 
 > SmartTouch Pad
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/70/d4f0d9b870ad32e8a841e29aaec7ee.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/SmartTouchPad-1.png)
+
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/SmartTouchPad-2.png)
+
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/SmartTouchPad-3.png)
 
 > Fake Mouse
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/7e/67d95cc9798d9b99fd760754078c91.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/FakeMouse.png)
 
 > Audio
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/c5/8e80badb5ea8e5a7575c667013721c.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Audio-Insert-Headphone.png)
 
-> Bluetooth![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/91/cd31ab1f05b5fb1d887aece9ea92db.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Audio-Remove-Headphone.png)
+
+> Bluetooth(Have set some fake to disable)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Bluetooth.png)
 
 > Ethernet
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/3c/7f1b5bedb35daaf3db9fbe2fe66a50.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Ethernet.png)
 
 > Wireless
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/53/9517cd7c151159ddfcfd08db7c74de.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Wireless.png)
 
 > Graphics
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/08/cbb3b395baf17368c2344789007f0c.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Graphics.png)
 
 > USB
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/d7/614a92e0b63bc9fc8a1decfa509056.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/USB.png)
 
 > Bettery
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/7c/095ae2673ae3fbb0d60f121688ede8.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Bettery.png)
 
 > PCI List
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/60/eaeef37837817879fd4643bdaf4110.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/PCI-List.png)
 
-> Brightness
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/a9/72cbe0a892e22f2debb064a0f9614d.jpg)
+> Brightness Control
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Brightness-Control.png)
 
-> Audio
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/af/fc91c3a4afa383b07d4d984efdafb6.jpg)
+> Audio Control
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Audio-Control-1.png)
+
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Audio-Control-2.png)
 
 > About
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/6b/f40ff79e0c02ccd9d5069c96e866b6.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/About.png)
 
 > Display built in
-![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/62/b17ff56e0b2b6f2b0ece45ece8e53f.jpg)
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/Display-Built-In.png)
+
+> HDMI Audio
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/HDMI-Audio-1.png)
+
+![](https://raw.githubusercontent.com/athlonreg/ASUS-F455LD-i5-4210u/master/Screens/HDMI-Audio-2.png)
 
 ### Contribute
 I will appreciate if somebody can improve the configurator files。
