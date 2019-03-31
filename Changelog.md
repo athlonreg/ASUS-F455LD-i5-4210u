@@ -1,4 +1,16 @@
 # Changelog
+- 2019.3.31
+  - Update CLOVER version to 4903
+  - Update drivers64UEFI based on Clover_v2.4k_r4903
+  - Update AppleALC to 1.3.6
+  - Update Lilu to 1.3.5
+  - Update WhateverGreen to 1.2.7
+  - Update CPUFriend to 1.1.6
+  - Update ATH9KFixup to 1.3.3
+  - Remove useless plugins of FakeSMC
+  - Update FakePCIID version to 1.3.15
+  - Update AppleBacklightFixup to 1.0.2
+
 - 2018.10.13
   - Update CLOVER version to 4704
   - Update drivers64UEFI based on Clover_v2.4k_r4704
