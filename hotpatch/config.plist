@@ -115,34 +115,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1BUUwk=
-					</data>
-					<key>Replace</key>
-					<data>
-					WlBUUwk=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1dBSwE=
-					</data>
-					<key>Replace</key>
-					<data>
-					WldBSwE=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
 					<false/>
@@ -337,6 +309,34 @@
 					WFJCQg==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>DWBL to XWBL</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RFdCTA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFdCTA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>UPBL to XPBL</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					VVBCTA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBCTA==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -366,17 +366,6 @@
 			<key>NoOemTableId</key>
 			<false/>
 		</dict>
-		<key>SortedOrder</key>
-		<array>
-			<string>SSDT-BATT.aml</string>
-			<string>SSDT-RMCF.aml</string>
-			<string>SSDT-PNLF.aml</string>
-			<string>SSDT-DDGPU.aml</string>
-			<string>SSDT-FnKey.aml</string>
-			<string>SSDT-XCPM.aml</string>
-			<string>SSDT-PTSWAK.aml</string>
-			<string>SSDT-PCI-List.aml</string>
-		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
