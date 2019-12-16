@@ -503,9 +503,9 @@
 			<key>ProtectCsmRegion</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
-			<false/>
+			<true/>
 			<key>SetupVirtualMap</key>
-			<false/>
+			<true/>
 			<key>ShrinkMemoryMap</key>
 			<false/>
 		</dict>
@@ -824,11 +824,11 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmCfgLock</key>
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
-			<false/>
+			<true/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
@@ -967,7 +967,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -ath9565 abm_firstpolldelay=13000 -no_compat_check</string>
+				<string>keepsyms=1 debug=0x100 -ath9565 abm_firstpolldelay=13000 -no_compat_check -v</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1012,6 +1012,7 @@
 			<string>HFSPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
+			<string>MemoryAllocation.efi</string>
 			<string>VirtualSmc.efi</string>
 		</array>
 		<key>Input</key>
