@@ -624,7 +624,7 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>ACPIBatteryManager</string>
+				<string>ACPIBatteryManager.kext</string>
 				<key>Comment</key>
 				<string>Battery</string>
 				<key>Enabled</key>
