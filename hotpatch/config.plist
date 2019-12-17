@@ -376,6 +376,10 @@
 				</data>
 				<key>AAPL,slot-name</key>
 				<string>PCI Express 3.0</string>
+				<key>device-id</key>
+				<data>
+				EgQAAA==
+				</data>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
