@@ -255,30 +255,30 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>DWBL to XWBL</string>
+					<string>_Q0E to XQ0E</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					RFdCTA==
+					X1EwRQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFdCTA==
+					WFEwRQ==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>UPBL to XPBL</string>
+					<string>_Q0F to XQ0F</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					VVBCTA==
+					X1EwRg==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFBCTA==
+					X1EwRg==
 					</data>
 				</dict>
 			</array>
