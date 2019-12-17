@@ -408,6 +408,8 @@
 				<string>onboard-1</string>
 			</dict>
 		</dict>
+		<key>SetIntelBacklight</key>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
