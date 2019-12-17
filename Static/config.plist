@@ -39,7 +39,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nv_disable=1 abm_firstpolldelay=13000 -lilubetaall -ath9565</string>
+		<string>nv_disable=1 abm_firstpolldelay=13000 -lilubetaall -ath9565 -no_compat_check</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
@@ -186,6 +186,8 @@
 		<true/>
 		<key>KernelPm</key>
 		<true/>
+		<key>PanicNoKextDump</key>
+		<true/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -197,17 +199,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>11/08/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP151.88Z.0178.B00.1806260902</string>
+		<string>MBP152.88Z.F000.B00.1911080134</string>
 		<key>Board-ID</key>
-		<string>Mac-937A206F2EE63C01</string>
+		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C028263064NDNJL8C</string>
+		<string>C02835700CDJH4R1F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -218,6 +220,8 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>1037.60.55.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -231,13 +235,13 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,1</string>
+		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02WXWYLKGYG</string>
+		<string>C02X9ZZDJHCD</string>
 		<key>SmUUID</key>
-		<string>A7D886DC-B85A-4026-B59A-314337E81BCF</string>
+		<string>F43CF29A-0010-4F87-AD86-022705E2B4E6</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

@@ -370,7 +370,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall -ath9565 abm_firstpolldelay=13000</string>
+		<string>-lilubetaall -ath9565 abm_firstpolldelay=13000 -no_compat_check</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
@@ -458,8 +458,6 @@
 				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>model</key>
-				<string>Intel Iris Plus Graphics 655</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -506,6 +504,8 @@
 		<false/>
 		<key>KernelPm</key>
 		<true/>
+		<key>PanicNoKextDump</key>
+		<true/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -517,17 +517,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
+		<string>11/08/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.1809171524</string>
+		<string>MBP152.88Z.F000.B00.1911080134</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02801802CDJH4RUE</string>
+		<string>C027532074NJH4RA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -539,7 +539,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.200.252.0.0</string>
+		<string>1037.60.55.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -553,13 +553,13 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0x02</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02W20LAJHCD</string>
+		<string>C02W1QZXJHCD</string>
 		<key>SmUUID</key>
-		<string>7D50A1C6-0AC8-4CF4-BB5A-B6935E0A8692</string>
+		<string>1C2BDB09-F3FF-4D84-9B91-1A113629DC9B</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
