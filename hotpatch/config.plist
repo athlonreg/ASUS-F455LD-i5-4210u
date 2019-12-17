@@ -17,7 +17,7 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change B0D3 to HDAU, optionally pair with SSDT-HDAU.aml</string>
+					<string>B0D3 to HDAU</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -31,7 +31,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change SAT0 to SATA, optionally pair with SSDT-SATA.aml</string>
+					<string>SAT0 to SATA</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -45,7 +45,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change LPC to LPCB, optionally pair with SSDT-DEHCI.aml, SSDT-DEH01.aml, SSDT-DEH02.aml, SSDT-LPC.aml</string>
+					<string>LPC to LPCB</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -59,7 +59,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EUSB to EH01</string>
+					<string>EUSB to EH01</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -73,7 +73,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EH02 to EHC2</string>
+					<string>EH02 to EHC2</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -87,7 +87,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EH01 to EHC1</string>
+					<string>EH01 to EHC1</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -97,62 +97,6 @@
 					<key>Replace</key>
 					<data>
 					RUhDMQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1BUUwE=
-					</data>
-					<key>Replace</key>
-					<data>
-					WlBUUwE=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1dBSwk=
-					</data>
-					<key>Replace</key>
-					<data>
-					WldBSwk=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_DSM -&gt; XDSM</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X0RTTQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WERTTQ==
 					</data>
 				</dict>
 				<dict>
