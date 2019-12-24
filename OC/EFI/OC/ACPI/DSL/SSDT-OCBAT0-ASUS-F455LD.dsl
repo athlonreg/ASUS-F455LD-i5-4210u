@@ -23,7 +23,7 @@
 // Find:    45435342 07
 // Replace: 58435342 07
 //
-DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
+DefinitionBlock ("", "SSDT", 2, "hack", "BAT0", 0x00000000)
 {
     External (_SB.PCI0.LPCB.EC0, DeviceObj)
     External (_SB.PCI0.BAT0, DeviceObj)
@@ -34,7 +34,6 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
     External (_SB.PCI0.BAT0.PBIF, PkgObj)
     External (_SB.PCI0.LPCB.EC0.ADD2, FieldUnitObj)
     External (_SB.PCI0.LPCB.EC0.ADDR, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.DT2B, FieldUnitObj)
     External (_SB.PCI0.LPCB.EC0.BATP, MethodObj)
     External (_SB.PCI0.LPCB.EC0.BCN2, FieldUnitObj)
     External (_SB.PCI0.LPCB.EC0.BCNT, FieldUnitObj)
@@ -97,8 +96,30 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
             }
             Return(TEMP)
         }
-        OperationRegion (ERM2, EmbeddedControl, Zero, 0xFF)
-            Field (ERM2, ByteAcc, Lock, Preserve)
+        
+        Method (WE1B, 2, NotSerialized)
+        {
+            OperationRegion(ERAM, EmbeddedControl, Arg0, 1)
+            Field(ERAM, ByteAcc, NoLock, Preserve) { BYTE, 8 }
+            Store(Arg1, BYTE)
+        }
+        Method (WECB, 3, Serialized)
+        {
+            ShiftRight(Arg1, 3, Arg1)
+            Name(TEMP, Buffer(Arg1) { })
+            Store(Arg2, TEMP)
+            Add(Arg0, Arg1, Arg1)
+            Store(0, Local0)
+            While (LLess(Arg0, Arg1))
+            {
+                WE1B(Arg0, DerefOf(Index(TEMP, Local0)))
+                Increment(Arg0)
+                Increment(Local0)
+            }
+        }
+        
+        OperationRegion (BAM0, EmbeddedControl, Zero, 0xFF)
+            Field (BAM0, ByteAcc, Lock, Preserve)
             {
                 Offset (0x93), 
                 TH00,8,TH01,8,//TAH0,   16, 
@@ -122,8 +143,8 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
                 B1S0,8,B1S1,8//B1SN,   16
             }
 
-            OperationRegion (RMB1, EmbeddedControl, 0x18, 0x28)
-            Field (RMB1, ByteAcc, NoLock, Preserve)
+            OperationRegion (BAM1, EmbeddedControl, 0x18, 0x28)
+            Field (BAM1, ByteAcc, NoLock, Preserve)
             {
                 ,   8, 
                 ,   5, 
@@ -132,16 +153,22 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
                 ,   1, 
                 ,   8, 
                 ,   8, 
-                //BDAT,   256, Offset (0x04) ,RECB(0x04,256)
+                XXXX, 256, //BDAT,   256, Offset (0x04) ,RECB(0x04,256)
                 ,   8, 
                     ,   1, 
                 ,   7, 
                 ,   8, 
                 ,   8
             }
+            
+            Field (BAM1, ByteAcc, NoLock, Preserve)
+            {
+                Offset (0x04), 
+                DT20,8,DT21,8,    //DT2B,   16
+            }
 
-            OperationRegion (RMB2, EmbeddedControl, 0x40, 0x28)
-            Field (RMB2, ByteAcc, NoLock, Preserve)
+            OperationRegion (BAM2, EmbeddedControl, 0x40, 0x28)
+            Field (BAM2, ByteAcc, NoLock, Preserve)
             {
                 ,   8, 
                 ,   5, 
@@ -150,7 +177,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
                 ,   1, 
                 ,   8, 
                 ,   8, 
-                //BDA2,   256, Offset (0x04) ,RECB(0x04,256)
+                YYYY, 256, //BDA2,   256
                 ,   8, 
                     ,   1, 
                 ,   7, 
@@ -358,7 +385,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
                     }
                 }
 
-                RECB(0x04,256) = Zero
+                WECB(0x04,256,Zero)
                 PRTC = Arg0
                 Local0 [Zero] = SWTC (Arg0)
                 If ((DerefOf (Local0 [Zero]) == Zero))
@@ -372,7 +399,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
                     If ((Arg0 == RDWD))
                     {
                         Local0 [One] = 0x02
-                        Local0 [0x02] = DT2B /* \_SB.PCI0.LPCB.EC0.DT2B */
+                        Local0 [0x02] = B1B2 (\_SB.PCI0.LPCB.EC0.DT20, \_SB.PCI0.LPCB.EC0.DT21) /* \_SB.PCI0.LPCB.EC0.DT2B */
                     }
 
                     If ((Arg0 == RDBT))
@@ -448,7 +475,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
 
             If ((Local2 <= 0x03E8))
             {
-                RECB(0x04,256) = Zero
+                WECB(0x04,256,Zero)
                 Local3 = (Arg1 << One)
                 ADDR = Local3
                 If ((Arg0 != WRQK))
@@ -462,12 +489,12 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
                 If ((Arg0 == WRBL))
                 {
                     BCNT = Arg3
-                    RECB(0x04,256) = Arg4
+                    WECB(0x04,256,Arg4)
                 }
 
                 If ((Arg0 == WRWD))
                 {
-                    DT2B = Arg4
+                    B1B2 (\_SB.PCI0.LPCB.EC0.DT20, \_SB.PCI0.LPCB.EC0.DT21) = Arg4
                 }
 
                 If ((Arg0 == WRBT))
@@ -551,7 +578,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
                         If (((Arg1 == 0x0A) || (Arg1 == 0x0B)))
                         {
                             BCNT = DerefOf (Arg6 [Zero])
-                            RECB(0x04,256) = DerefOf (Arg6 [One])
+                            WECB(0x04,256,DerefOf (Arg6 [One]))
                         }
                         Else
                         {
@@ -568,7 +595,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "batt", 0x00000000)
                         If (((Arg1 == 0x0A) || (Arg1 == 0x0B)))
                         {
                             BCN2 = DerefOf (Arg6 [Zero])
-                            RECB(0x04,256) = DerefOf (Arg6 [One])
+                            WECB(0x04,256,DerefOf (Arg6 [One]))
                         }
                         Else
                         {
