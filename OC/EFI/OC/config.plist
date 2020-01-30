@@ -115,23 +115,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X0JJWAA=</data>
+				<data>
+				X0JJWAA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WEJJWAA=</data>
+				<data>
+				WEJJWAA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -141,23 +149,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>QklGQQA=</data>
+				<data>
+				QklGQQA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WElGQQA=</data>
+				<data>
+				WElGQQA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -167,23 +183,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>U01CUgs=</data>
+				<data>
+				U01CUgs=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WE1CUgs=</data>
+				<data>
+				WE1CUgs=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -193,23 +217,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>U01CVw0=</data>
+				<data>
+				U01CVw0=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WE1CVw0=</data>
+				<data>
+				WE1CVw0=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -219,23 +251,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>RUNTQgc=</data>
+				<data>
+				RUNTQgc=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WENTQgc=</data>
+				<data>
+				WENTQgc=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -245,23 +285,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>VEFDSAk=</data>
+				<data>
+				VEFDSAk=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WEFDSAk=</data>
+				<data>
+				WEFDSAk=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -308,6 +356,8 @@
 			<true/>
 			<key>ShrinkMemoryMap</key>
 			<false/>
+			<key>SignalAppleOS</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -322,17 +372,31 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>BgAmCg==</data>
+				<data>
+				BgAmCg==
+				</data>
 				<key>device-id</key>
-				<data>EgQAAA==</data>
+				<data>
+				EgQAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
+				<data>
+				AACQAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>
+				AAAwAQ==
+				</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
+				<data>
+				AAAAgA==
+				</data>
+				<key>model</key>
+				<string>Intel HD Graphics 4400</string>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -565,11 +629,15 @@
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
 			<true/>
+			<key>AppleXcpmForceBoost</key>
+			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
+			<false/>
+			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
 			<false/>
@@ -580,13 +648,15 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleBehaviourOs</key>
@@ -598,9 +668,9 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideSelf</key>
-			<true/>
-			<key>PollAppleHotKeys</key>
 			<false/>
+			<key>PollAppleHotKeys</key>
+			<true/>
 			<key>Resolution</key>
 			<string></string>
 			<key>ShowPicker</key>
@@ -613,45 +683,24 @@
 		<key>Debug</key>
 		<dict>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Windows</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Name</key>
-				<string>Windows</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,B0-45-1B-30-56-03-23-00)/HD(1,GPT,4EE50653-0C94-4C0F-9E69-724FD69E5F26,0x28,0x8A7D8)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>CLOVER</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Name</key>
-				<string>CLOVER</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,B0-45-1B-30-56-03-23-00)/HD(1,GPT,4EE50653-0C94-4C0F-9E69-724FD69E5F26,0x28,0x8A7D8)/\EFI\CLOVER\CLOVERX64.efi</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
 			<true/>
+			<key>AllowSetDefault</key>
+			<true/>
+			<key>AuthRestart</key>
+			<false/>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
@@ -661,7 +710,7 @@
 			<key>RequireVault</key>
 			<false/>
 			<key>ScanPolicy</key>
-			<integer>983299</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -671,7 +720,7 @@
 				<key>Comment</key>
 				<string>UEFI Shell</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -698,16 +747,22 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>UIScale</key>
-				<data>AQ==</data>
+				<data>
+				AQ==
+				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -ath9565 abm_firstpolldelay=13000 -no_compat_check -v</string>
+				<string>keepsyms=1 debug=0x100 -ath9565 -no_compat_check</string>
 				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
+				<data>
+				5wMAAA==
+				</data>
 				<key>prev-lang:kbd</key>
-				<data>emgtSGFuczoyNTI=</data>
+				<data>
+				emgtSGFuczoyNTI=
+				</data>
 			</dict>
 		</dict>
 	</dict>
@@ -717,18 +772,22 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<true/>
 			<key>MLB</key>
-			<string>C02801802CDJH4RUE</string>
+			<string>C02501902QXFH311H</string>
 			<key>ROM</key>
-			<data>g5WcqU3B</data>
+			<data>
+			g5WcqU3B
+			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,2</string>
+			<string>MacBookPro11,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W20LAJHCD</string>
+			<string>C02P28YSFH00</string>
 			<key>SystemUUID</key>
-			<string>7D50A1C6-0AC8-4CF4-BB5A-B6935E0A8692</string>
+			<string>E108B89F-17A6-4705-9D84-003FC3A20A9B</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -749,7 +808,6 @@
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
 			<string>MemoryAllocation.efi</string>
-			<string>VirtualSmc.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -766,7 +824,7 @@
 			<key>PointerSupport</key>
 			<false/>
 			<key>PointerSupportMode</key>
-			<string></string>
+			<string>ASUS</string>
 			<key>TimerResolution</key>
 			<integer>50000</integer>
 		</dict>
@@ -780,6 +838,8 @@
 			<false/>
 			<key>AppleKeyMap</key>
 			<false/>
+			<key>AppleSmcIo</key>
+			<false/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>ConsoleControl</key>
@@ -791,6 +851,8 @@
 			<key>FirmwareVolume</key>
 			<false/>
 			<key>HashServices</key>
+			<false/>
+			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
