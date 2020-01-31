@@ -8,22 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>PS2N</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PS2N.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>NDGP</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-NDGP.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>ALS0</string>
 				<key>Enabled</key>
 				<true/>
@@ -93,14 +77,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PWRB.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>BKey</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-BKey-F455LD.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -624,11 +600,11 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmCfgLock</key>
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
@@ -754,7 +730,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -ath9565 -no_compat_check</string>
+				<string>keepsyms=1 debug=0x100 -ath9565 -wegnoegpu</string>
 				<key>csr-active-config</key>
 				<data>
 				5wMAAA==
@@ -807,7 +783,6 @@
 			<string>HFSPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
-			<string>MemoryAllocation.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
