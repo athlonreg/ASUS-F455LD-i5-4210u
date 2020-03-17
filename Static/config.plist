@@ -39,7 +39,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nv_disable=1 abm_firstpolldelay=13000 -lilubetaall -ath9565 -no_compat_check</string>
+		<string>nv_disable=1 abm_firstpolldelay=13000 -lilubetaall -ath9565</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
@@ -124,8 +124,6 @@
 				</data>
 			</dict>
 		</dict>
-		<key>SetIntelBacklight</key>
-		<false/>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -186,8 +184,6 @@
 		<true/>
 		<key>KernelPm</key>
 		<true/>
-		<key>PanicNoKextDump</key>
-		<true/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -199,17 +195,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>11/08/2019</string>
+		<string>04/11/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.1911080134</string>
+		<string>MBP111.88Z.0146.B00.1804111138</string>
 		<key>Board-ID</key>
-		<string>Mac-827FB448E656EC26</string>
+		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02835700CDJH4R1F</string>
+		<string>C02327600QXDKG2AD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -219,13 +215,11 @@
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>1037.60.55.0.0</string>
+		<string>0x0A</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
+		<string>0xE80FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -237,11 +231,11 @@
 		<key>PlatformFeature</key>
 		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,2</string>
+		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02X9ZZDJHCD</string>
+		<string>C02L18Z3FH00</string>
 		<key>SmUUID</key>
-		<string>F43CF29A-0010-4F87-AD86-022705E2B4E6</string>
+		<string>485D06D3-D759-464F-92E0-B50E9959A44C</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
