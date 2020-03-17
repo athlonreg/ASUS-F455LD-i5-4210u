@@ -1,5 +1,19 @@
 # Changelog
+- 2020.3.17
+  
+  - Update CLOVER to 5105
+  - Update Lilu to 1.4.2
+  - Update AppleALC to 1.4.8
+  - Update OpenCore 0.5.7 of 2020.3.16 updates
+  - Support GUI for OpenCore
+  - Support Startup Audio for OpenCore
+  - Update WhateverGreen to 1.3.7
+  - Remove VerifyMsrE2
+  - Rename Shell to OpenShell
+- Rename FwRuntimeServices to OpenRuntime
+  
 - 2019.3.31
+
   - Update CLOVER version to 4903
   - Update drivers64UEFI based on Clover_v2.4k_r4903
   - Update AppleALC to 1.3.6
@@ -49,7 +63,7 @@
   - Update CPU Frequency to 2.7GHz
   - Update IGPU to Intel Iris Plus Graphics 655
   - Update SMBIOS to MacBook Pro15,2
-  
+
   ![](https://raw.githubusercontent.com/athlonreg/BlogImages/master/Images/60/8d18a5fd6a30ada82cad14044f33df.jpg)
 
 - 2018.7.20
@@ -64,7 +78,7 @@
   - Added config-mbp151 and config-mbp152 to support future update
   - Clear one key hidpi script
   - Added working device desc
-  
+
 - 2018.6.29
   - Update CLOVER version to 4586
   - Update drivers64UEFI based on Clover_v2.4k_r4586
