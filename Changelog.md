@@ -1,4 +1,10 @@
 # Changelog
+- 2020.3.18
+
+  - Remove ALCPlugFix for layout-id 3 and 28
+  - Remove static method
+  - Adjust dictionary struct
+
 - 2020.3.17
   
   - Update CLOVER to 5105
@@ -10,7 +16,7 @@
   - Update WhateverGreen to 1.3.7
   - Remove VerifyMsrE2
   - Rename Shell to OpenShell
-- Rename FwRuntimeServices to OpenRuntime
+  - Rename FwRuntimeServices to OpenRuntime
   
 - 2019.3.31
 
