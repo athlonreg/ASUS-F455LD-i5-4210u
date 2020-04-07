@@ -1,4 +1,13 @@
 # Changelog
+- 2020.4.7
+
+  - Update Lilu to 1.4.3
+
+  - Update AppleALC to 1.4.8
+  - Update WhateverGreen to 1.3.8
+  - Update CLOVER to 5109
+  - Bump OpenCore version to 0.5.8
+
 - 2020.3.18
 
   - Remove ALCPlugFix for layout-id 3 and 28
@@ -6,7 +15,7 @@
   - Adjust dictionary struct
 
 - 2020.3.17
-  
+
   - Update CLOVER to 5105
   - Update Lilu to 1.4.2
   - Update AppleALC to 1.4.8
@@ -17,7 +26,7 @@
   - Remove VerifyMsrE2
   - Rename Shell to OpenShell
   - Rename FwRuntimeServices to OpenRuntime
-  
+
 - 2019.3.31
 
   - Update CLOVER version to 4903
